@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp con comandi, giochi e gestione gruppi basato su Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "games",
+    "admin",
+    "chatbot"
+  ],
+  "author": "Emanuele Rey Carbone",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^4.6.0",
+    "qrcode": "^1.5.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
